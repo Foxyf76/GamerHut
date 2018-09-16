@@ -1,0 +1,75 @@
+<object-stream>
+  <list>
+    <store.User>
+      <ID>4DVSVJPL4GJ4G4NICW</ID>
+      <fullname>test</fullname>
+      <dob>DatePicker[id=date, styleClass=combo-box-base date-picker date]</dob>
+      <username>test</username>
+      <email>test</email>
+      <password>test</password>
+      <imageURL>C:\Users\Luke\Pictures\FINAL.png</imageURL>
+      <games>
+        <store.Game>
+          <ID>XLJI9PPXPYIOA27YUM</ID>
+          <name>Assassin&apos;s Creed Origins</name>
+          <year>2018</year>
+          <description>Assassin&apos;s Creed Origins is an action-adventure video game developed by Ubisoft Montreal and published by Ubisoft. </description>
+          <platform>PC</platform>
+          <genre>RPG</genre>
+          <rating>9.5</rating>
+          <image>C:\Users\Luke\Desktop\ac.png</image>
+        </store.Game>
+        <store.Game>
+          <ID>6O0R7UB9KMSXW71DK0</ID>
+          <name>Firewatch</name>
+          <year>2016</year>
+          <description>Firewatch is an adventure game developed by Campo Santo and published by Campo Santo in partnership with Panic.</description>
+          <platform>PC</platform>
+          <genre>Adventure</genre>
+          <rating>9.0</rating>
+          <image>C:\Users\Luke\Desktop\images.jpg</image>
+        </store.Game>
+        <store.Game>
+          <ID>18BAENQ2W8U3SV6GCC</ID>
+          <name>PES 2019</name>
+          <year>2018</year>
+          <description>Pro Evolution Soccer 2019 is a football simulation video game developed by PES Productions and published by Konami for Microsoft Windows, PlayStation 4 and Xbox One</description>
+          <platform>PC</platform>
+          <genre>Sports</genre>
+          <rating>8.5</rating>
+          <image>C:\Users\Luke\Desktop\image.jpg</image>
+        </store.Game>
+        <store.Game>
+          <ID>PJQ73ILDF464BR502N</ID>
+          <name>test</name>
+          <year>2012</year>
+          <description>test</description>
+          <platform>PSP</platform>
+          <genre>Sports</genre>
+          <rating>3.5</rating>
+          <image>C:\Users\Luke\Pictures\cora.png</image>
+        </store.Game>
+        <store.Game>
+          <ID>LPDBV9ID23DSYXZJ1I</ID>
+          <name>test3</name>
+          <year>2015</year>
+          <description>test3</description>
+          <platform>PS4</platform>
+          <genre>Sports</genre>
+          <rating>0.0</rating>
+          <image>C:\Users\Luke\Pictures\1month(1).png</image>
+        </store.Game>
+        <store.Game>
+          <ID>GTBYLG9LO5Y2ZR7L8W</ID>
+          <name>test4</name>
+          <year>4444</year>
+          <description>test4</description>
+          <platform>PS2</platform>
+          <genre>RPG</genre>
+          <rating>3.0</rating>
+          <image>C:\Users\Luke\Pictures\FINAL.png</image>
+        </store.Game>
+      </games>
+    </store.User>
+  </list>
+</object-stream>

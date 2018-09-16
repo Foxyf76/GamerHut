@@ -1,0 +1,182 @@
+
+.text-line {
+	-fx-text-inner-color: white;
+	-fx-text-fill:white;
+	-fx-prompt-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-border-width: 0.0 0.0 1.0 0.0;
+    -fx-border-color: white;
+}
+
+.btn-login {
+	-fx-text-fill: white;
+	-fx-background-radius: 20px;
+	-fx-border-radius: 20px;
+	-fx-background-color: transparent;
+	-fx-border-color: white;
+}
+	
+.btn-login:hover {
+	-fx-background-color: white;
+	-fx-text-fill: rgb(13, 36, 66);
+}
+  
+.btn-create {
+	-fx-text-fill: white;
+	-fx-background-radius: 20px;
+	-fx-border-radius: 20px;
+	-fx-background-color: transparent;
+	-fx-border-color: white;
+}
+	
+.btn-create:hover {
+	-fx-background-color: rgb(43, 66, 96);
+	-fx-text-fill: white;
+	-fx-border-color: white;
+}
+
+.image:hover {
+	-fx-background-color: red;
+}
+
+.btn-back {
+	-fx-text-fill: white;
+	-fx-background-radius: 20px;
+	-fx-border-radius: 20px;
+	-fx-background-color: transparent;
+	-fx-border-color: transparent;
+}
+
+.btn-back:hover {
+	-fx-text-fill: rgb(13, 36, 66);
+}
+
+/* DATE BOX CSS */
+
+.date .combo-box {
+-fx-background-insets:0px ;
+-fx-border-width: 0px;
+}
+
+.date .text-field{
+-fx-background-radius:0px ;
+-fx-border-color: transparent;
+}
+
+.date .arrow-button{
+-fx-background-radius:0px ;
+-fx-background-color: transparent;
+}
+
+.date .arrow-button .arrow{
+-fx-background-radius:0px ;
+-fx-background-color: white;
+}
+
+.date .arrow-button:hover .arrow{
+-fx-background-radius:0px ;
+-fx-background-color: rgb(13, 36, 66);
+ }
+
+ .date .button {
+-fx-background-color: transparent;
+-fx-border-color:transparent;
+-fx-pref-height: 35px;
+-fx-pref-width: 35px;
+ }
+
+ .date .button:hover {
+-fx-border-color:transparent;
+-fx-pref-height: 35px;
+-fx-pref-width: 35px;
+ }
+
+.date .button .arrow:pressed {
+-fx-border-color:transparent;
+-fx-pref-height: 35px;
+-fx-pref-width: 35px;
+ }
+
+ .date .cell {
+-fx-background-color: transparent;
+-fx-pref-width:20px ;
+-fx-pref-height:25px ;
+ }
+
+.date .cell:hover {
+-fx-background-color: #1783CC;
+-fx-pref-width:20px ;
+-fx-pref-height:25px ;
+}
+
+.date .cell:focused {
+-fx-background-color:rgb(13, 36, 66);
+-fx-pref-width:20px ;
+-fx-pref-height:25px;
+-fx-text-fill: white;
+ }
+
+.date-picker-popup  {
+-fx-border-color: #1783CC;
+-fx-background-color: transparent;
+ }
+ 
+ /* ///////////////// */
+ 
+.round-button {
+-fx-background-radius: 10em;  
+-fx-min-width: 100px; 
+-fx-min-height: 100px; 
+-fx-max-width: 100px; 
+-fx-max-height: 100px;               
+}
+
+.round-button:hover {
+	-fx-text-fill: white;
+	-fx-background-radius: 30px;
+	-fx-border-radius: 30px;
+	-fx-background-color: transparent;
+	-fx-border-color: white;
+}
+
+.dropbox .arrow-button .arrow{
+-fx-background-radius:0px ;
+-fx-background-color: white;
+}
+
+.dropbox .arrow-button:hover .arrow {
+	-fx-background-color: rgb(13, 36, 66);
+}
+
+.dropbox .list-view .list-cell {
+	-fx-background-color: rgb(13, 36, 66);
+}
+
+.dropbox .list-view .list-cell:hover {
+	-fx-background-color: white;
+	-fx-text-fill: rgb(13, 36, 66);
+}
+
+.dropbox .list-cell {
+	-fx-text-fill: white;
+}
+
+.description {
+	-fx-background-color: linear-gradient(to bottom, derive(-fx-text-box-border, -10%), -fx-text-box-border),
+        linear-gradient(from 0px 0px to 0px 5px, derive(-fx-control-inner-background, -9%), -fx-control-inner-background);
+}
+
+.slider .axis {
+-fx-tick-label-fill: white;
+}
+
+.slider .track {
+	-fx-control-inner-background: palegreen;
+    -fx-background-insets: 1 0 -1 0, 0, 1;
+    -fx-background-radius: 2.5, 2.5, 1.5;
+    -fx-padding: 0.208333em; /* 2.5 */
+    
+    }
+
+
+ 

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="500.0" minWidth="800.0" prefHeight="540.0" prefWidth="800.0" styleClass="background" stylesheets="@../application/background.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scenes.CreateGameController">
+   <children>
+      <Pane layoutY="2.0" prefHeight="78.0" prefWidth="800.0">
+         <children>
+            <Label layoutX="82.0" layoutY="10.0" text="CREATE GAME" textFill="WHITE">
+               <font>
+                  <Font name="Aller Light" size="42.0" />
+               </font>
+            </Label>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="42.0" fitWidth="61.0" layoutX="14.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true" translateY="1.0">
+               <image>
+                  <Image url="@../images/game.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Line endX="700.0" layoutX="98.0" layoutY="79.0" startX="-100.0" stroke="WHITE" strokeLineCap="BUTT" strokeLineJoin="ROUND" strokeType="OUTSIDE" />
+      <Separator layoutX="344.0" layoutY="100.0" orientation="VERTICAL" prefHeight="421.0" prefWidth="9.0" />
+      <VBox alignment="TOP_CENTER" layoutX="26.0" layoutY="100.0" prefHeight="421.0" prefWidth="297.0" style="-fx-background-color: rgba(255,255,255,0.3); -fx-background-radius: 30;" stylesheets="@textBoxLine.css">
+         <children>
+            <ImageView fx:id="gameImage" fitHeight="326.0" fitWidth="268.0" pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </ImageView>
+            <Button mnemonicParsing="false" onAction="#uploadImage" prefHeight="27.0" prefWidth="113.0" styleClass="btn-create" stylesheets="@textBoxLine.css" text="SELECT IMAGE">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <Pane layoutX="372.0" layoutY="101.0" prefHeight="421.0" prefWidth="409.0" style="-fx-background-color: rgba(255,255,255,0.3); -fx-background-radius: 30;" stylesheets="@textBoxLine.css">
+         <children>
+            <Label layoutX="14.0" layoutY="43.0" text="NAME:" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="82.0" text="YEAR:" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="120.0" text="GENRE:" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="11.0" layoutY="159.0" text="PLATFORM:" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="11.0" layoutY="196.0" text="DESCRIPTION:" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="genre" layoutX="166.0" layoutY="118.0" prefWidth="150.0">
+               <styleClass>
+                  <String fx:value="text-line" />
+                  <String fx:value="text-field" />
+                  <String fx:value="dropbox" />
+               </styleClass></ComboBox>
+            <TextField fx:id="name" layoutX="167.0" layoutY="40.0" styleClass="text-line" />
+            <TextField fx:id="year" layoutX="167.0" layoutY="79.0" styleClass="text-line" />
+            <ComboBox fx:id="platform" layoutX="166.0" layoutY="155.0" prefWidth="150.0">
+               <styleClass>
+                  <String fx:value="text-line" />
+                  <String fx:value="dropbox" />
+               </styleClass></ComboBox>
+            <TextArea fx:id="description" layoutX="11.0" layoutY="231.0" prefHeight="78.0" prefWidth="388.0" promptText="Enter description..." styleClass="description" wrapText="true" />
+            <Label layoutX="16.0" layoutY="317.0" text="RATING:" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <Slider fx:id="rating" blockIncrement="1.0" layoutX="11.0" layoutY="345.0" majorTickUnit="1.0" max="10.0" minorTickCount="1" prefHeight="14.0" prefWidth="388.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" />
+            <Button layoutX="179.0" layoutY="382.0" mnemonicParsing="false" onAction="#addGame" styleClass="btn-create" text="CREATE" />
+            <Button layoutX="34.0" layoutY="382.0" mnemonicParsing="false" onAction="#profileScene" styleClass="btn-create" text="← RETURN" />
+         </children></Pane>
+   </children>
+</AnchorPane>

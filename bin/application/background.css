@@ -1,0 +1,11 @@
+.anchor {
+    -fx-background-image: url("../images/landing.png");
+}
+
+.background {
+	-fx-background-image: url("../images/background-resized.png");
+}
+
+.pane-background {
+	-fx-background-image: url("../images/pattern.png");
+}

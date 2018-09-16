@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="500.0" minWidth="800.0" prefHeight="698.0" prefWidth="991.0" styleClass="background" stylesheets="@../application/background.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scenes.GameViewController">
+   <children>
+      <Pane layoutY="2.0" prefHeight="78.0" prefWidth="991.0">
+         <children>
+            <Label layoutX="82.0" layoutY="10.0" text="VIEW GAME" textFill="WHITE">
+               <font>
+                  <Font name="Aller Light" size="42.0" />
+               </font>
+            </Label>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="42.0" fitWidth="61.0" layoutX="14.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true" translateY="1.0">
+               <image>
+                  <Image url="@../images/game.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Line endX="991.0" layoutY="79.0" stroke="WHITE" strokeLineCap="BUTT" strokeLineJoin="ROUND" strokeType="OUTSIDE" />
+      <Separator layoutX="467.0" layoutY="100.0" orientation="VERTICAL" prefHeight="572.0" prefWidth="11.0" />
+      <VBox alignment="TOP_CENTER" layoutX="26.0" layoutY="100.0" prefHeight="549.0" prefWidth="409.0" style="-fx-background-color: rgba(255,255,255,0.3); -fx-background-radius: 30;" stylesheets="@textBoxLine.css">
+         <children>
+            <ImageView fx:id="imageView" fitHeight="422.0" fitWidth="335.0" pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </ImageView>
+            <Label fx:id="rating" text="RATING" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+      <Pane layoutX="512.0" layoutY="448.0" prefHeight="224.0" prefWidth="456.0" style="-fx-background-color: rgba(255,255,255,0.3); -fx-background-radius: 30;" stylesheets="@textBoxLine.css">
+         <children>
+            <Label layoutX="165.0" layoutY="14.0" text="USEFUL LINKS" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="127.0" fitWidth="111.0" layoutX="35.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/youtube.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="127.0" fitWidth="111.0" layoutX="173.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/amazon.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="metacritic" fitHeight="127.0" fitWidth="111.0" layoutX="314.0" layoutY="89.0" onMouseClicked="#launchMetacritic" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/metacritic.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <VBox alignment="TOP_CENTER" layoutX="512.0" layoutY="100.0" prefHeight="332.0" prefWidth="456.0" style="-fx-background-color: rgba(255,255,255,0.3); -fx-background-radius: 30;" stylesheets="@textBoxLine.css">
+         <children>
+            <Label fx:id="name" text="GAME" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="year" layoutX="211.0" layoutY="58.0" text="YEAR" textFill="WHITE">
+               <font>
+                  <Font size="19.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="genre" layoutX="216.0" layoutY="86.0" text="GENRE" textFill="WHITE">
+               <font>
+                  <Font size="19.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="platform" layoutX="209.0" layoutY="134.0" text="PLATFORM" textFill="WHITE">
+               <font>
+                  <Font size="19.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="description" layoutX="209.0" layoutY="114.0" text="DESCRIPTION" textFill="WHITE">
+               <font>
+                  <Font size="19.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+      <Button layoutX="34.0" layoutY="660.0" mnemonicParsing="false" onAction="#profileScene" styleClass="btn-create" stylesheets="@textBoxLine.css" text="← RETURN" />
+   </children>
+</AnchorPane>
