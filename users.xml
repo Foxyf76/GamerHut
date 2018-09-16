@@ -7,7 +7,7 @@
       <username>test</username>
       <email>test</email>
       <password>test</password>
-      <imageURL>C:\Users\Luke\Pictures\FINAL.png</imageURL>
+      <imageURL>C:\"imageURL"</imageURL>
       <games>
         <store.Game>
           <ID>XLJI9PPXPYIOA27YUM</ID>
@@ -17,7 +17,7 @@
           <platform>PC</platform>
           <genre>RPG</genre>
           <rating>9.5</rating>
-          <image>C:\Users\Luke\Desktop\ac.png</image>
+          <image>C:\"imageURL"</image>
         </store.Game>
         <store.Game>
           <ID>6O0R7UB9KMSXW71DK0</ID>
@@ -27,7 +27,7 @@
           <platform>PC</platform>
           <genre>Adventure</genre>
           <rating>9.0</rating>
-          <image>C:\Users\Luke\Desktop\images.jpg</image>
+          <image>C:\"imageURL"</image>
         </store.Game>
         <store.Game>
           <ID>18BAENQ2W8U3SV6GCC</ID>
@@ -37,7 +37,7 @@
           <platform>PC</platform>
           <genre>Sports</genre>
           <rating>8.5</rating>
-          <image>C:\Users\Luke\Desktop\image.jpg</image>
+          <image>C:\"imageURL"</image>
         </store.Game>
         <store.Game>
           <ID>PJQ73ILDF464BR502N</ID>
@@ -47,7 +47,7 @@
           <platform>PSP</platform>
           <genre>Sports</genre>
           <rating>3.5</rating>
-          <image>C:\Users\Luke\Pictures\cora.png</image>
+          <image>C:\"imageURL"</image>
         </store.Game>
         <store.Game>
           <ID>LPDBV9ID23DSYXZJ1I</ID>
@@ -57,7 +57,7 @@
           <platform>PS4</platform>
           <genre>Sports</genre>
           <rating>0.0</rating>
-          <image>C:\Users\Luke\Pictures\1month(1).png</image>
+          <image>C:\"imageURL"</image>
         </store.Game>
         <store.Game>
           <ID>GTBYLG9LO5Y2ZR7L8W</ID>
@@ -67,7 +67,7 @@
           <platform>PS2</platform>
           <genre>RPG</genre>
           <rating>3.0</rating>
-          <image>C:\Users\Luke\Pictures\FINAL.png</image>
+          <image>C:\"imageURL"</image>
         </store.Game>
       </games>
     </store.User>
