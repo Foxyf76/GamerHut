@@ -6,7 +6,7 @@ JavaFX application that allows the user to:
   -Rate games and view all games in a Table View
   -Save and load user info upon closing and opening the application
 
-To Do:
+**To Do**:
 
   -Encrypt .xml files containing user details
   -Add validation to many of the text fields and various methods
