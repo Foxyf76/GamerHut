@@ -8,7 +8,7 @@ JavaFX application that allows the user to:
 
 **To Do**:
 
-  -Encrypt .xml files containing user details
-  -Add validation to many of the text fields and various methods
-  -Clean up and improve GUI
+  * Encrypt .xml files containing user details
+  * Add validation to many of the text fields and various methods
+  * Clean up and improve GUI
 
